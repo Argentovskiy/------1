@@ -1,0 +1,95 @@
+body{
+   background:rgb(146, 123, 30)  url(img/Fon1.jpg)  repeat-y;
+   background-size: 100% auto;
+   font-family: Courier, monospace;
+   font-size: 16px;
+}
+.links01{
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+.Top-menu{
+    width:80%;
+    height:40px;
+    margin-top: 0.1%;
+    margin-left: 1.8%;
+   display: flex; 
+   text-decoration: none;
+}
+.Sp-Top-menu{    
+    width: 60%;
+    margin-top: 3.5%;
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    justify-content: space-around;
+    }
+
+.Sp-Top-menu a {
+    display: inline-block;
+    color: aliceblue;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+.Sp-Top-menu a:after {
+    
+    background-color:azure;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.Sp-Top-menu a:hover:after,
+.Sp-Top-menu a:focus:after {
+    width: 100%;
+}
+.Sp-Left-menu{
+    color: azure;
+    list-style-type: disc;
+    padding-top:7%;
+    margin-left: 3%;
+    display: inline-flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+ 
+.Sp-Left-menu a {
+    display: inline-block;
+    color: aliceblue;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+.Sp-Left-menu a:after {
+    
+    background-color:aliceblue;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.Sp-Left-menu a:hover:after,
+.Sp-Left-menu a:focus:after {
+    width: 100%;
+}   
